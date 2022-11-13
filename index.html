@@ -22,45 +22,42 @@
 </head>
 
 <body>
-<section class="vh-100">
+<section class="vh-100 col-md-12 sm-12 mt-8">
     <div class="container-fluid h-custom">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-9 col-lg-6 col-xl-5">
           <img src="images/santa.jpg"
             class="img-fluid" alt="Papá noel en pedo">
         </div>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-          <form>
-            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-              <h2 class="lead fw-normal mb-0 me-3" id="result">Santa secreto</h2>
+        <div class="col-md-12 col-lg-6 col-xl-4 offset-xl-1">
+          <form class="mt-6">
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start" id="result">
+              <h1 class="mb-0 me-3 display-1">Santa secreto</h1>
             </div>
   
             <!-- Name input -->
             <div class="form-outline mb-4">
-                Nombre:
-              <input type="text" id="name" class="form-control form-control-lg"
+                <h2 class="display-3">Nombre</h2>
+              <input type="text" id="name" class="form-control form-control-lg" style="font-size: 2rem; background-color:lightgray;"
                 placeholder="Tu nombre sin tildes (no jodas)" />
             </div>
   
             <!-- Password input -->
             <div class="form-outline mb-3">
-                Contraseña:
-              <input type="text" id="password" class="form-control form-control-lg"
+               <h2 class="display-3"> Contraseña</h2>
+              <input type="text" id="password" class="form-control form-control-lg" style="font-size: 2rem; background-color:lightgray;"
                 placeholder="Ingresá el código secreto" />
             </div>
   
-            <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" class="btn btn-danger btn-lg"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;" onclick="sendData()" type="button">Entrar</button>
-              <p class="small fw-bold mt-2 pt-1 mb-0">No hagas trampa!</p>
+            <div class="text-center text-xl-start mt-4 pt-2">
+              <button type="button" class="btn btn-danger btn-xl"
+                style="padding-left: 2.5rem; padding-right: 2.5rem; font-size: 2rem" onclick="sendData()" type="button">Entrar</button>
+              <p class="fw-bold mt-2 pt-1 mb-0">No hagas trampa!</p>
             </div>
   
           </form>
         </div>
       </div>
-    </div>
-    <div
-      class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-danger">
     </div>
   </section>
   <script src="./index.js"></script>
