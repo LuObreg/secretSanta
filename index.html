@@ -4,45 +4,65 @@
 <head>
     <!-- Title Page-->
     <title>Santa Secreto</title>
-
-    <!-- Icons font CSS-->
-    <link href="colorlib-regform-2/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="colorlib-regform-2/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-
-    <!-- Main CSS-->
-    <link href="colorlib-regform-2/css/main.css" rel="stylesheet" media="all">
+    <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
 </head>
 
 <body>
-    <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
-        <div class="wrapper wrapper--w960">
-            <div class="card card-2">
-                <div class="card-heading"></div>
-                <div class="card-body">
-                    <h2 class="title" id="result">SANTA SECRETO</h2>
-                    <form method="POST">
-                        <div class="input-group">
-                            <input class="input--style-2" type="text" placeholder="Nombre" name="name" id="name">
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <input class="input--style-2" type="text" placeholder="Código secreto" name="password" id="password"">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-t-30">
-                            <button class="btn btn--radius btn--green" onclick="sendData()" type="button">Entrar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="images/santa.jpg"
+            class="img-fluid" alt="Papá noel en pedo">
         </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+              <h2 class="lead fw-normal mb-0 me-3" id="result">Santa secreto</h2>
+            </div>
+  
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+                Nombre:
+              <input type="text" id="name" class="form-control form-control-lg"
+                placeholder="Tu nombre sin tildes (no jodas)" />
+            </div>
+  
+            <!-- Password input -->
+            <div class="form-outline mb-3">
+                Contraseña:
+              <input type="text" id="password" class="form-control form-control-lg"
+                placeholder="Ingresá el código secreto" />
+            </div>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="button" class="btn btn-danger btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;" onclick="sendData()" type="button">Entrar</button>
+              <p class="small fw-bold mt-2 pt-1 mb-0">No hagas trampa!</p>
+            </div>
+  
+          </form>
+        </div>
+      </div>
     </div>
-    <script src="./index.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-
+    <div
+      class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-danger">
+    </div>
+  </section>
+  <script src="./index.js"></script>
+</body>
 </html>
-<!-- end document-->
