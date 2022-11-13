@@ -1,0 +1,58 @@
+{
+  "users":[{
+    "name": "SONIA",
+    "pass": 22,
+    "household": "a"
+    },
+    {
+    "name": "OSCAR",
+    "pass": 17,
+    "household": "a"
+    },
+    {
+    "name": "LUCIA",
+    "pass": 29,
+    "household": "a"
+    },
+    {
+    "name": "TOMAS",
+    "pass": 13,
+    "household": "a"
+    },
+    {
+    "name": "NOEMI",
+    "pass": 5,
+     "household": "b"
+    },
+    {
+    "name": "ANDRES",
+    "pass": 31,
+    "household": "c"
+    },
+    {
+    "name": "LUCAS",
+    "pass": 17,
+     "household": "c"
+    },
+    {
+    "name": "INES",
+    "pass": 2,
+    "household": "d"
+    },
+    {
+    "name": "LUIS",
+    "pass": 13,
+        "household": "d"
+    },
+    {
+    "name": "MIRIAM",
+    "pass": 18,
+        "household": "e"
+    },
+    {
+    "name": "CECI",
+    "pass": 11,
+        "household": "e"
+    }
+    ]
+}
