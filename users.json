@@ -1,57 +1,57 @@
 {
   "users":[{
     "name": "SONIA",
-    "pass": 22,
+    "pass": "2264",
     "household": "a"
     },
     {
     "name": "OSCAR",
-    "pass": 17,
+    "pass": "1761",
     "household": "a"
     },
     {
     "name": "LUCIA",
-    "pass": 29,
+    "pass": "password",
     "household": "a"
     },
     {
     "name": "TOMAS",
-    "pass": 13,
+    "pass": "soytonto",
     "household": "a"
     },
     {
     "name": "NOEMI",
-    "pass": 5,
+    "pass": "1234",
      "household": "b"
     },
     {
     "name": "ANDRES",
-    "pass": 31,
+    "pass": "0778",
     "household": "c"
     },
     {
     "name": "LUCAS",
-    "pass": 17,
+    "pass": "10",
      "household": "c"
     },
     {
     "name": "INES",
-    "pass": 2,
+    "pass": "0203",
     "household": "d"
     },
     {
     "name": "LUIS",
-    "pass": 13,
+    "pass": "1302",
         "household": "d"
     },
     {
     "name": "MIRIAM",
-    "pass": 18,
+    "pass": "0218",
         "household": "e"
     },
     {
     "name": "CECI",
-    "pass": 11,
+    "pass": "0911",
         "household": "e"
     }
     ]

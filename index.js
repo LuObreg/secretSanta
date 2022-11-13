@@ -12,7 +12,7 @@ function revealName(user){
     const resultPlace = document.getElementById('result');
     fetch('./results.json')   
     .then((response) => response.json())
-    .then((json) =>  resultPlace.innerHTML = ` <h2 class="display-3 note note-danger mb-3">TE TOCA REGALARLE A ${json[user]}</h2>`);    
+    .then((json) =>  resultPlace.innerHTML = ` <h2 class="display-3 mb-3" style="color:red; text-align: center">TE TOCA REGALARLE A ${json[user]}</h2>`);    
 }
 
 function checkPass(formData){
