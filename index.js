@@ -30,4 +30,19 @@ function process(json, formData){
     }
     alert("Contraseña incorrecta!");
 }
+function loadSelect (){
+    fetch('./users.json')   
+    .then((response) => response.json())
+    .then((json) => loadUserList(json))
+}
+function loadUserList(json){
+    const select = document.getElementById("name");
+    const users = json.users;
+    const userList = [`<option value="" disabled selected hidden>Tu nombre</option>`];
+    for (let user of users){
+        userList.push(`<option value="${user.name}">${user.name}</option>`);
+    }
+    select.innerHTML = userList;
+}
 
+loadSelect();
